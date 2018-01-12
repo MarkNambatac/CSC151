@@ -1,0 +1,20 @@
+//Code Used in Creating the Table in SQL using SQL Shell (psql) in the command line
+
+--------------------------------------------------------------------------------------------------------
+CREATE DATABASE student;
+
+\c student;
+
+CREATE TABLE studentlist(
+   ID  	   TEXT ,
+   NAME       TEXT,
+   EMP_ID     TEXT );
+
+INSERT INTO COMPANY (ID,NAME,COURSE) VALUES ( '2013-1414' , 'Elon Musk' , 'BSEE');
+
+INSERT INTO COMPANY (ID,NAME,COURSE) VALUES ( '2123-1234' , 'Jeff Bezos' , 'BSBA');
+
+INSERT INTO COMPANY (ID,NAME,COURSE) VALUES ( ' 2011-0123' , 'Mark Zuckerberg' , 'BSCS');
+
+--------------------------------------------------------------------------------------------------------
+SCREENSHOT INCLUDED IN THE SCREENSHOT FOLDER
